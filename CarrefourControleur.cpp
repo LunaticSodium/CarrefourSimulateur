@@ -398,7 +398,7 @@ void Syscarrefour::UpdatePixel()
 {
     for(int i=0;i<20;i++)
     {
-        pixels.setPixelColor(i, pixels.Color(_loop.GetR(NumTransde20a16(i)),_loop.GetG(NumTransde20a16(i))_loop.GetB(NumTransde20a16(i))));
+        pixels.setPixelColor(i, pixels.Color(_loop.GetR(NumTransde20a16(i)),_loop.GetG(NumTransde20a16(i)),_loop.GetB(NumTransde20a16(i))));
     }
     return;
 }
